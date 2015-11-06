@@ -6,7 +6,7 @@ machine:
   
   #python version
   python:
-    version: python-2.6.6
+    version: 2.6.6
   
 #python test
 test:
