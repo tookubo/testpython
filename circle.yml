@@ -2,14 +2,15 @@
 machine:
 
   timezone:
-    America/Los_Angeles # Set the timezone
+    Asia/Tokyo # Set the timezone
   
   #python version
   python:
-    version: 2.6.6
+    version: 2.6.6 #Set the python version
   
 #python test
 test:
   override:
-    - python test.py
+    - python test.py #Do python
+    　cat /etc/issue
   
