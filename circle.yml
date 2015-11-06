@@ -13,3 +13,4 @@ test:
   override:
     - python test.py #Do python
     - cat /etc/issue
+    
