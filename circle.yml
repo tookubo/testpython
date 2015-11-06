@@ -1,0 +1,15 @@
+## Customize the test machine
+machine:
+
+  timezone:
+    America/Los_Angeles # Set the timezone
+  
+  #python version
+  python:
+    version: pypy-2.6.6
+  
+#python test
+test:
+  override:
+    - python test.py
+  
