@@ -12,5 +12,4 @@ machine:
 test:
   override:
     - python test.py #Do python
-  override:  
     - cat /etc/issue
