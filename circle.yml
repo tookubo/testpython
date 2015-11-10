@@ -1,0 +1,15 @@
+## Customize the test machine
+machine:
+
+  timezone:
+    Asia/Tokyo # Set the timezone
+  
+  #python version
+  python:
+    version: 2.6.6 #Set the python version
+  
+#python test
+test:
+  override:
+    - python test.py #Do python
+    - cat /etc/issue
