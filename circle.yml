@@ -16,6 +16,6 @@ dependencies:
 #python test
 test:
   override:
-    - python test.py #Do python
+    - python hello.py #Do python
     - cat /etc/issue
     - py.test -v test.py
