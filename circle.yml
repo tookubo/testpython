@@ -4,6 +4,13 @@ machine:
   timezone:
     Asia/Tokyo # Set the timezone
   
+#py.test install
+dependencies:
+  override:
+    - apt-get install python-setuptools
+    - easy_install pip
+    - pip install -U pytest
+  
   #python version
   python:
     version: 2.6.6 #Set the python version
@@ -13,3 +20,4 @@ test:
   override:
     - python test.py #Do python
     - cat /etc/issue
+    - py.test -v test.py
