@@ -14,7 +14,7 @@ class TestHoge1(object):
         assert hoge.val == 1
 
         hoge.update('hoge')
-        assert hoge.val == 'hoge'
+        assert hoge.val == 'hige'
 
 if __name__ == '__main__':
     pytest.main()
