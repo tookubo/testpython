@@ -20,3 +20,4 @@ test:
     - python hello.py #Do python
     - cat /etc/issue
     - py.test --version
+    - py.test -v test.py
